@@ -1,0 +1,98 @@
+"FullPic As screen.'phoneLayout_Tutorial_ver3.0'":
+
+    TutorialImage1 As image:
+        AccessibleLabel: ="Layouts_Tutorial_Image_Accessible_Text"
+        Height: =500
+        Image: ='MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300'
+        Width: =294
+        Y: =157
+        ZIndex: =2
+
+    ButtonCanvas1 As Button:
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =64
+        OnSelect: |
+            =Navigate('Screen1', ScreenTransition.None)
+        Text: ="Movies"
+        Width: =128
+        X: =235
+        Y: =740
+        ZIndex: =4
+
+    Container2 As groupContainer.manualLayoutContainer:
+        Height: =500
+        Width: =303
+        X: =305
+        Y: =185
+        ZIndex: =5
+
+        TextCanvas1 As Text:
+            Align: ='TextCanvas.Align'.Start
+            DisplayMode: =DisplayMode.Edit
+            Height: =56
+            Size: =25
+            Text: ="The Avengers"
+            Width: =150
+            X: =0
+            Y: =8
+            ZIndex: =1
+
+        TextCanvas2 As Text:
+            Align: ='TextCanvas.Align'.Start
+            DisplayMode: =DisplayMode.Edit
+            Height: =32
+            Size: =18
+            Text: ="2012"
+            Width: =96
+            X: =0
+            Y: =64
+            ZIndex: =2
+
+        TextCanvas3 As Text:
+            Align: ='TextCanvas.Align'.Start
+            AutoHeight: =false
+            DisplayMode: =DisplayMode.Edit
+            Height: =43
+            Size: =18
+            Text: ="Action, Sci-Fi"
+            Width: =118
+            X: =0
+            Y: =92
+            ZIndex: =3
+
+        TextCanvas4 As Text:
+            Align: ='TextCanvas.Align'.Start
+            DisplayMode: =DisplayMode.Edit
+            Height: =76
+            Size: =18
+            Text: ="Robert Downey Jr., Chris Evans, Scarlett Johansson"
+            Width: =168
+            X: =0
+            Y: =130
+            ZIndex: =4
+
+        TextCanvas5 As Text:
+            Align: ='TextCanvas.Align'.Start
+            DisplayMode: =DisplayMode.Edit
+            Height: =250
+            Text: ="Loki, the adopted brother of Thor, teams-up with the Chitauri Army and uses the Tesseract's power to travel from Asgard to Midgard to plot the invasion of Earth and become a king. The director of the agency S.H.I.E.L.D., Nick Fury, sets in motion project Avengers, joining Tony Stark a.k.a. the Iron Man; Steve Rogers, a.k.a. Captain America; Bruce Banner, a.k.a. The Hulk; Thor; Natasha Romanoff, a.k.a. Black Widow; and Clint Barton, a.k.a. Hawkeye, to save the world from the powerful Loki and the alien invasion."
+            Width: =301
+            X: =0
+            Y: =206
+            ZIndex: =5
+
+    Header1 As Header:
+        BasePaletteColor: =RGBA(5, 102, 178, 1)
+        DisplayMode: =DisplayMode.Edit
+        Height: =75
+        OnSelectLogo: =false
+        Title: =App.ActiveScreen.Name
+        UserEmail: =User().Email
+        UserImage: =User().Image
+        UserName: =User().FullName
+        Width: =Parent.Width
+        X: =0
+        Y: =0
+        ZIndex: =6
+
