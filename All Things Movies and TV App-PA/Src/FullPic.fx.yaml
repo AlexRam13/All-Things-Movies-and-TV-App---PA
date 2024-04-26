@@ -11,9 +11,10 @@
     ButtonCanvas1 As Button:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =64
         OnSelect: |
-            =Navigate('Screen1', ScreenTransition.None)
+            =Navigate(Screen1, ScreenTransition.None)
         Text: ="Movies"
         Width: =128
         X: =235
@@ -30,6 +31,7 @@
         TextCanvas1 As Text:
             Align: ='TextCanvas.Align'.Start
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =56
             Size: =25
             Text: ="The Avengers"
@@ -41,6 +43,7 @@
         TextCanvas2 As Text:
             Align: ='TextCanvas.Align'.Start
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =32
             Size: =18
             Text: ="2012"
@@ -53,6 +56,7 @@
             Align: ='TextCanvas.Align'.Start
             AutoHeight: =false
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =43
             Size: =18
             Text: ="Action, Sci-Fi"
@@ -64,6 +68,7 @@
         TextCanvas4 As Text:
             Align: ='TextCanvas.Align'.Start
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =76
             Size: =18
             Text: ="Robert Downey Jr., Chris Evans, Scarlett Johansson"
@@ -75,6 +80,7 @@
         TextCanvas5 As Text:
             Align: ='TextCanvas.Align'.Start
             DisplayMode: =DisplayMode.Edit
+            FontColor: =
             Height: =250
             Text: ="Loki, the adopted brother of Thor, teams-up with the Chitauri Army and uses the Tesseract's power to travel from Asgard to Midgard to plot the invasion of Earth and become a king. The director of the agency S.H.I.E.L.D., Nick Fury, sets in motion project Avengers, joining Tony Stark a.k.a. the Iron Man; Steve Rogers, a.k.a. Captain America; Bruce Banner, a.k.a. The Hulk; Thor; Natasha Romanoff, a.k.a. Black Widow; and Clint Barton, a.k.a. Hawkeye, to save the world from the powerful Loki and the alien invasion."
             Width: =301
@@ -85,6 +91,7 @@
     Header1 As Header:
         BasePaletteColor: =RGBA(5, 102, 178, 1)
         DisplayMode: =DisplayMode.Edit
+        FontColor: =
         Height: =75
         OnSelectLogo: =false
         Title: =App.ActiveScreen.Name
